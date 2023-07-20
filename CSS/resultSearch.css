@@ -1,0 +1,135 @@
+/*START RESET*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+}
+/*END RESET*/
+
+/*START STYLE GENERAL*/
+html, body {
+    height: 100%;
+    background: linear-gradient(to bottom, #161616, #2a1e46);
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 75px;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.transition {
+    transform: translateY(100%);
+    transition: transform 0.3s ease-out;
+}
+      
+.transition.active {
+    transform: translateY(0);
+}
+
+/*START FOOTER*/
+.footer {
+    background: linear-gradient(to right, #6B40FF, #8F6FFF, #ad327e);
+    width: 100vw;
+    padding-block: 2rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar {
+    color: hsl(0, 0%, 69%);
+    font-size: 2.2rem;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+/*END FOOTER*/
+/* END STYLE GENERAL*/
+
+/*START HEADER*/
+h1 {
+    font-size: 4rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    padding: 0 25px;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    left: 0;
+}
+
+/*END HEADER*/
+
+/* START SECTION CONTAINER-MOVIE*/
+
+.container-movie {
+    display: flex;
+    border-bottom: 3px solid #8F6FFF;
+}
+
+.container-movie:first-child {
+    border-top: 3px solid #8F6FFF;
+}
+.poster-movie {
+    height: 500px;
+    width: 333px;
+    margin-right: 50px;
+    object-fit: cover;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-right: 15px;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+.releaseDate-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.releaseDate-Container svg {
+    margin-right: 5px;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.movie-note {
+    display: flex;
+    /*position: relative;
+    top: -35%;
+    left: 43%;*/
+    align-items: center;
+    background: #000000e6;
+    padding: 10px 30px;
+    margin-right: 5px;
+    border-radius: 45px;
+    color: #ffa500;
+    font-size: 2.2rem;
+}
+/* END SECTION CONTAINER-MOVIE*/

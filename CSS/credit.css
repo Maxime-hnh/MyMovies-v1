@@ -1,0 +1,97 @@
+/*START RESET*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+}
+/*END RESET*/
+
+/*START STYLE GENERAL*/
+html, body {
+    height: 100%;
+    background: linear-gradient(to bottom, #161616, #2a1e46);
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 75px;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.transition {
+    transform: translateY(100%);
+    transition: transform 0.3s ease-out;
+}
+      
+.transition.active {
+    transform: translateY(0);
+}
+
+/*START FOOTER*/
+.footer {
+    background: linear-gradient(to right, #6B40FF, #8F6FFF, #ad327e);
+    width: 100vw;
+    padding-block: 2rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar {
+    color: hsl(0, 0%, 69%);
+    font-size: 2.2rem;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+/*END FOOTER*/
+/* END STYLE GENERAL*/
+
+/*START HEADER*/
+h1 {
+    font-size: 4rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    padding: 0 25px;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    left: 0;
+}
+/*END HEADER*/
+
+.credit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(40%);
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 3rem;
+    margin: 0 40px;
+    text-align: center;
+}
+
+object {
+    margin: 100px 0;
+}
