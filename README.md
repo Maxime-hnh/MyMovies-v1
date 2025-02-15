@@ -1,6 +1,7 @@
 # :tv: MyMovies-v1 (march 2023)
 
--  :iphone: A mobile site to search for movies, read the description, watch trailers, etc. Using themovieDB API
+-  ⚠️ This project is not responsive and is intended to be used on mobile devices only.
+-  :iphone: A mobile site to search for movies, read the description, watch trailers, etc. Using themovieDB API.
 
 # :link: URL : 
 - https://mymovies-mh.netlify.app/
